@@ -1,5 +1,70 @@
 *{
     margin: 0;
     padding: 0;
-    font-family:;
+    font-family: "Titillium Web";
+}
+:root{
+    --selectBG:#15418C;
+    --optionHover: #072F54;
+}
+header{
+    height: 125px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navArea{
+    height: 125px;
+    width: 85%;
+    background-color: yellowgreen;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.topNav{
+    width: 100%;
+    /* background-color: whitesmoke; */
+}
+.topNav ul{
+    display: flex;
+    justify-content: space-around;
+}
+.topNav li{
+    list-style-type: none;
+}
+
+select{
+    color: white;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    font-size: 21px;
+    line-height: 20px;
+    font-weight: 400;
+    -webkit-appearance: none;
+    
+
+}
+select:hover{
+    color: white;
+    background-color: var(--selectBG);
+    outline: none;
+    border: none;
+    font-size: 21px;
+    line-height: 20px;
+    font-weight: 400;
+    
+
+}
+option{
+    /* width: 400px; */
+    background-color: var(--selectBG);
+    text-transform: capitalize;
+}
+option:hover{
+    background-color: var(--optionHover);
 }
