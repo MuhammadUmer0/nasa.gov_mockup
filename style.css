@@ -99,3 +99,37 @@ nav li:hover {
   list-style-type: none;
   background-color: #888888;
 }
+main{
+  height: 600px;
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.mainLeft{
+  height: 600px;
+  width: 674px;
+  background-image: url(images/iss059e104766.jpg);
+  background-repeat: no-repeat;
+}
+.mainRight{
+  height: 615px;
+  width: 674px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #888888;
+}
+.mainImgRow{
+  height: 300px;
+  width: 670px;
+  background-color: #333333;
+  display: flex;
+  justify-content: space-around;
+}
+.mainImgCol{
+  height: 300px;
+  width: 330px;
+  background-color: var(--selectBG);
+}
