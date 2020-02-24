@@ -100,20 +100,19 @@ nav li:hover {
   background-color: #888888;
 }
 main{
-  height: 600px;
-  
+  height: 610px;
+  margin-top: 1em;
   display: flex;
-  align-items: center;
   justify-content: space-around;
 }
 .mainLeft{
-  height: 600px;
+  height: 610px;
   width: 674px;
   background-image: url(images/iss059e104766.jpg);
   background-repeat: no-repeat;
 }
 .mainRight{
-  height: 615px;
+  height: 610px;
   width: 674px;
   display: flex;
   flex-direction: column;
@@ -126,7 +125,7 @@ main{
   width: 670px;
   background-color: #333333;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 .mainImgCol{
   height: 300px;
