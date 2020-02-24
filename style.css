@@ -7,6 +7,7 @@
   --selectBG: #15418c;
   --optionHover: #072f54;
   --navBG: #555555;
+  --stories: #5D7FB9;
 }
 body {
   background-color: black;
@@ -139,4 +140,38 @@ main {
 .mainImgCol img {
   height: 300px;
   width: 330px;
+}
+section{
+  height: 300px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  background-color: blanchedalmond;
+}
+.sectionRow{
+  margin-top: 0.2em;
+  height: 300px;
+  width: 100%;
+  background-color: blue;
+  display: flex;
+  justify-content: space-around;
+  align-items: center ;
+}
+.sectionCol{
+  height: 300px;
+  width: 330px;
+  background-color: brown;
+}
+.sectionCol img{
+  height: 300px;
+  width: 330px;
+}
+.stories{
+  height: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--stories);
 }
